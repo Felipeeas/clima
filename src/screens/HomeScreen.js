@@ -5,8 +5,8 @@ import { Container, Content, Card, CardItem,  Text, Button, Body } from 'native-
 
 
 
-import  AppHeader from '../components/layout/AppHeader'
-import  AppFooter  from '../components/layout/AppFooter'
+import  AppHeader from '../components/AppHeader'
+import  AppFooter  from '../components/AppFooter'
 import Geolocation from '@react-native-community/geolocation';
 import { getClimate } from '../store/actions/climate';
 import ImagePrevisao from '../../assets/previsao.png'
